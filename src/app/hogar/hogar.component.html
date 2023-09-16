@@ -16,12 +16,15 @@
 
 <br><br>
 
-<h2>Personas Ingresada</h2>
+<!-- Aquí conectamos la ruta del componente a llamar -->
+<a [routerLink]="['/Contactanos']" style="font-size: 20px; color: red;">Dirigir alguna parte</a>
 
+<h2>Personas Ingresada</h2>
 <app-ver-persona *ngFor="let item of persona" 
 
 #se le envia el nombre entre corchetes y el valor entre comillas del objeto junto con el alias
 
 [Pnombre]="item.nombre"
 [apellido]="item.apellido">
+
 </app-ver-persona>

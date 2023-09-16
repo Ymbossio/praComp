@@ -14,7 +14,7 @@ import { QuienesSComponent } from './quienes-s/quienes-s.component';
 /* Importamos las rutas que vamos a utilizar para los diferentes componentes */
 const AppRoutes:Routes = [
  {path:'', component:HogarComponent},
- {path:'quienesS', component:QuienesSComponent},
+ {path:'quienesS/:id', component:QuienesSComponent},
  {path:'Contactanos', component:ContactanosComponent},
 
 ];
